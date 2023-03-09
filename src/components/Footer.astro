@@ -1,0 +1,20 @@
+---
+import Social from "./Social.astro";
+
+const platform = "Richi Coder GitHub"
+---
+
+<style>
+    footer {
+      display: flex;
+      gap: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+
+<footer>
+  <p>Check my GitHub <a href={`https://github.com/richi-coder`}>{platform}</a>!</p>
+  <Social platform="twitter" username="richi-coder" />
+  <Social platform="github" username="richi-coder" />
+  <Social platform="instagram" username="richi-coder" />
+</footer>
